@@ -13,6 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
         
       },
+      fontFamily:{
+        aramis: ["var(--font-aramis)"],
+        made:["var(--font-made)"]
+      }
     },
   },
   plugins: [],

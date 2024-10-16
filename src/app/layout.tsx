@@ -2,7 +2,26 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor/CustomCursor";
-import styles from "../components/CustomCursor/CustomCursor.module.css"
+
+
+const aramisItalic = localFont({
+  src:[
+    {
+      path:"../../public/fonts/Aramis-Italic.ttf"
+    }
+  ],
+  variable: "--font-aramis"
+})
+
+const Made = localFont({
+  src:[
+    {
+      path:"../../public/fonts/MADE.ttf"
+    }
+  ],
+  variable:"--font-made"
+})
+
 export const metadata: Metadata = {
   title: "Govind's Portfolio",
   description: "Created by Govind with ❤️",
@@ -16,10 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={` ${aramisItalic.variable} antialiased`}
       >
-        {children}
-        <CustomCursor/>
+          {children}
+          <CustomCursor/>
       </body>
     </html>
   );

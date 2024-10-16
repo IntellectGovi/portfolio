@@ -26,12 +26,12 @@
 /* Hover styles for interactive elements */
 .cursorHoverDot {
   opacity: 0;
-  transform: scale(1.5) translate(-50%, -50%); /* Center on hover */
+  transform: scale(1) translate(-50%, -50%); /* Center on hover */
   background-color: rgb(21, 21, 21); /* Change color on hover */
 }
 
 .cursorHoverOutline {
-  transform: scale(1) translate(-50%, -50%); /* Scale on hover */
+  transform: scale(2) translate(-50%, -50%); /* Scale on hover */
   border-color: transparent; /* Make border transparent */
   backdrop-filter: blur(1px); /* Apply glass effect */
   background-color: rgba(255, 255, 255, 0.2); /* Glass-like effect with transparency */

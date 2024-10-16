@@ -8,10 +8,7 @@
 * {
   /* background-color: #0A0A0A; */
 
-    font-family: "Syne", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    font-family: made;
 
 }
 
@@ -82,7 +79,6 @@ body{
 }
 
 .nav-text {
-  font-family: "Syne", sans-serif;
-  font-weight: 500;
+  font-size: 1.5rem;
   background: transparent;
 }
