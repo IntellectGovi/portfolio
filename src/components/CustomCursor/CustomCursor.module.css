@@ -1,0 +1,39 @@
+/* Normal cursor styles */
+.cursorDot {
+  position: fixed;
+  width: 8px;  /* Adjust size as needed */
+  height: 8px; /* Adjust size as needed */
+  background-color: black;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%); /* Centers the dot */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cursorOutline {
+  position: fixed;
+  width: 40px; /* Size of the outline */
+  height: 40px; /* Size of the outline */
+  border: 2px solid black; /* Initial border */
+  border-radius: 50%; /* Circular shape */
+  pointer-events: none; /* Prevent interaction */
+  z-index: 9998; /* Layering */
+  transform: translate(-50%, -50%); /* Centering */
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover styles for interactive elements */
+.cursorHoverDot {
+  opacity: 0;
+  transform: scale(1.5) translate(-50%, -50%); /* Center on hover */
+  background-color: rgb(21, 21, 21); /* Change color on hover */
+}
+
+.cursorHoverOutline {
+  transform: scale(1) translate(-50%, -50%); /* Scale on hover */
+  border-color: transparent; /* Make border transparent */
+  backdrop-filter: blur(1px); /* Apply glass effect */
+  background-color: rgba(255, 255, 255, 0.2); /* Glass-like effect with transparency */
+  background-blend-mode: difference;
+}

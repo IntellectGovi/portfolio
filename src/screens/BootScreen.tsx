@@ -1,6 +1,6 @@
 "use client";
 
-import BootElement from "@/components/Landing/BootElement";
+import BootElement from "@/components/Boot-component/BootElement";
 import { AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
 

@@ -1,5 +1,3 @@
-"use client"
-
 import { bootWords } from "@/store/bootWords";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
