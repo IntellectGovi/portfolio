@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 * {
@@ -10,7 +10,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:made;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 body{
@@ -95,5 +97,22 @@ body{
 
 .group:hover span::after {
   transform: scaleX(1); 
+}
+
+.work{
+  list-style: none;
+}
+
+.hero{
+  margin: 12px 100px;
+}
+
+.heroRight{
+  display: flex;
+}
+
+.heroRight-img{
+  height:80vh;
+  width: auto;
 }
 
