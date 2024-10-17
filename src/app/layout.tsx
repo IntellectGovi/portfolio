@@ -22,6 +22,40 @@ const Made = localFont({
   variable:"--font-made"
 })
 
+const dahila = localFont({
+  src:[
+    {
+      path:"../../public/fonts/dahila.ttf"
+    }
+  ],
+  variable:"--font-dahila"
+})
+
+const coolvetica = localFont({
+  src:[
+    {
+      path:"../../public/fonts/coolvetica.ttf"
+    }
+  ],
+  variable:"--font-coolvetica"
+})
+const geistMono = localFont({
+  src:[
+    {
+      path:"../../public/fonts/GeistMonoVF.woff"
+    }
+  ],
+  variable:"--font-geistMono"
+})
+const geistVG = localFont({
+  src:[
+    {
+      path:"../../public/fonts/geistVF.woff"
+    }
+  ],
+  variable:"--font-geistVG"
+})
+
 export const metadata: Metadata = {
   title: "Govind's Portfolio",
   description: "Created by Govind with ❤️",

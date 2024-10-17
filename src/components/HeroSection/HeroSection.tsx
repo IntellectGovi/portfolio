@@ -3,7 +3,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <div className=''>
-        <h1 className=''>My name is </h1>
+        <h1 className=''></h1>
     </div>
   )
 }

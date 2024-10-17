@@ -15,7 +15,11 @@ const config: Config = {
       },
       fontFamily:{
         aramis: ["var(--font-aramis)"],
-        made:["var(--font-made)"]
+        made:["var(--font-made)"],
+        dahila:["var(--font-dahila)"],
+        geistMono:["var(--font-geistMono)"],
+        geistVF:["var(--font-geistVF)"],
+        coolvetica:["var(--font-coolvetica)"]
       }
     },
   },
